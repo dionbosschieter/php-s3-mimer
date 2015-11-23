@@ -1,0 +1,22 @@
+{
+    "name": "dionbosschieter/phpfd",
+    "description": "It fixes mime types on files in s3",
+    "require": {
+        "symfony/console": "3.*",
+        "aws/aws-sdk-php": "3.*",
+        "dfridrich/php-mime-type": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dion Bosschieter",
+            "email": "dionbosschieter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mimefixer\\": "src/mimefixer"
+        }
+    },
+    "minimum-stability": "dev"
+}
